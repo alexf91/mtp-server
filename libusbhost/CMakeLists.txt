@@ -8,3 +8,7 @@ add_library(
     usbhost
     src/usbhost.c
 )
+
+install(
+  FILES libusbhost.so DESTINATION lib
+)

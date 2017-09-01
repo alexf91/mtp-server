@@ -11,7 +11,7 @@ target_link_libraries(
     mtp-server
     mtpserver
     usbhost
-    android-properties
+    pthread
     ${Boost_LIBRARIES}
     ${Boost_thread_LIBRARIES}
     ${Boost_system_LIBRARIES}
